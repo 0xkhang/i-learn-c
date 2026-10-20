@@ -1,0 +1,22 @@
+Since n bits can represent 2^n things. So we need to utilize bits in order to save some memory.
+
+# Number Representation
+- Signed intergers (negative, positive and zero)
+- Unsigned intergers (n for n >= 0)
+
+Revisit 2's complement number:
+
+First it started off with how to represent negative value using binary
+
+Sign Magnitude:
+- MSB is the sign bit
+    - leading 1s for negative
+    - leading 0s for postitive
+
+Problem:
+- As it goes up, the number get overflow and start to have negative values
+
+- with N bits we can present:
+- positives: 2^(N-1) - 1 
+- negative: same
+- zeros
